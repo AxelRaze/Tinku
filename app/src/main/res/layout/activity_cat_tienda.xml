@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cat_Medicos">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SERVICIOS DE TIENDA"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="204dp"
+            android:layout_height="150dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true"
+            tools:layout_editor_absoluteX="298dp"
+            tools:layout_editor_absoluteY="86dp">
+
+        </com.smarteist.autoimageslider.SliderView>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/per1"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Abarrotes"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+
+            <Button
+                android:id="@+id/Aire"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Aires acon."
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/autos"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Autos"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/bicicletas"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Bicicletas"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/bu"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Boutique"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/far"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="farmacia"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/herreria"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="herreria"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/hamacas"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Hamacas"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/opticas"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Opticas"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/papeleria"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="papeleria"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/pinturas"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="pinturas"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/relojeria"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Relojeria"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+
+
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/sombreros"
+                    android:layout_width="156dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="2dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="Sombreros"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/flat_red_1"
+                    app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/saludables"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Saludables"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/telefonia"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Telefonia"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+
+            <Button
+                android:id="@+id/variedades"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Variedades"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

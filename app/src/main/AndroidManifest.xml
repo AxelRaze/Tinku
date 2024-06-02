@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_onesignal_large_icon_default"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_onesignal_large_icon_default"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".cat_Medicos"
+            android:exported="false"
+            android:theme="@style/AppThemeDos" />
+        <activity
+            android:name=".activity.DetailActivityhermi"
+            android:exported="false"
+            android:theme="@style/AppThemeDos" />
+
+        <activity
+            android:name=".cat_Mecanico"
+            android:exported="false"
+            android:theme="@style/AppThemeDos" />
+        <activity
+            android:name=".cat_Cuidadopersonal"
+            android:exported="false"
+            android:theme="@style/AppThemeDos" />
+        <activity
+            android:name=".cat_Ayuda"
+            android:exported="false"
+            android:theme="@style/AppThemeDos" />
+        <activity
+            android:name=".cat_Nosotros"
+            android:exported="false"
+            android:theme="@style/AppThemeDos" />
+        <activity
+            android:name=".cat_Polit"
+            android:exported="false"
+            android:theme="@style/AppThemeDos" />
+        <activity
+            android:name=".cat_Tienda"
+            android:exported="false"
+            android:theme="@style/AppThemeDos" />
+        <activity
+            android:name=".cat_Comida"
+            android:exported="false"
+            android:theme="@style/AppThemeDos" />
+        <activity
+            android:name=".inicio"
+            android:exported="false"
+            android:theme="@style/AppThemeDos" />
+        <activity
+            android:name=".activity.MainActivityEmergencia"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPeronalizado"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed5"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed6"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed7"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed8"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed9"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed10"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed11"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMed12"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityTacos"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMeca1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMeca2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMeca3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMeca4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMeca5"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMeca6"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPer1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPer2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPer3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPer4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPer5"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPer6"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMarketin"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityBienesrai"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityCarneasa"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityAbogados"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityTortilleria"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityHotel"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityContaduria"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityConstruccion"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityReparacion"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityHerreria"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityAutolavado"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityAbarrotes"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityBu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityGimnacio"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityfarma"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityImprenta"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityAireac"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityBicicletas"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityHamacas"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityOpticas"
+            android:exported="false" />
+        <activity android:name=".activity.MainActivityPapeleria"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPinturas"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityTelefonia"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityVariedades"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityRelojeria"
+            android:exported="false" />
+        <activity android:name=".activity.MainActivityBirria"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityCarniceria"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityComidachina"
+            android:exported="false" />
+        <activity android:name=".activity.MainActivityFondas"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPizzerias"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPasteleria"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityPollo"
+            android:exported="false" />
+        <activity android:name=".activity.MainActivityTortas"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DetailActivity"
+            android:theme="@style/AppThemeDos" />
+        <activity android:name=".activity.MainActivitySombreros"
+            android:exported="false" />
+        <activity android:name=".activity.MainActivitySaludables"
+            android:exported="false"/>
+        <activity android:name=".activity.MainActivityAutos"
+            android:exported="false"/>
+        <activity android:name=".activity.MainActivityRestaurant"
+            android:exported="false"/>
+        <activity android:name=".activity.MainActivityMed14"
+            android:exported="false"/>
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/AppThemeDos">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

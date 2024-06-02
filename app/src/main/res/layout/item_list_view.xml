@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/imgItem"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/tvDescripcion"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvDirec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvCorreo"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvWeb"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvFace"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:id="@+id/tvMapa"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

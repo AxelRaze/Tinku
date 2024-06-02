@@ -1,0 +1,17 @@
+<resources>
+    <string name="submit">Ayuda</string>
+    <string name="app_name">Tinku</string>
+    <string name="library_name">Altamirano</string>
+    <string name="lorem_ipsum">Ciudad Altamirano</string>
+    <string name="lorem_ipsum2">Servicios cercanos a ti</string>
+    <string name="no_item_found">No se encontró ningún artículo</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="version">Version</string>
+    <string name="version2">0.2</string>
+    <string name="company">Compania</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="contact">Contacto</string>
+    <string name="author">Autor</string>
+    <string name="about">Nosotros</string>
+</resources>

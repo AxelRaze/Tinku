@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inicio">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/image_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="2"
+                    app:sliderStartAutoCycle="true">
+
+                </com.smarteist.autoimageslider.SliderView>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/bt0"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:drawableStart="@drawable/c911"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="SOS  "
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        app:backgroundTint="@android:color/holo_red_light"
+                        app:cornerRadius="13dp" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btienda"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:drawableStart="@drawable/ccarrito"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="TIENDA"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1"
+                        app:cornerRadius="16dp" />
+
+                    <Button
+                        android:id="@+id/btcomida"
+                        android:drawableStart="@drawable/ccomida"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="COMIDA"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+                </TableRow>
+
+
+
+
+
+
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/bt1"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:drawableStart="@drawable/ic_small_medicos"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="SALUD"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1"
+                        app:cornerRadius="16dp" />
+
+                    <Button
+                        android:id="@+id/bt2"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:drawableStart="@drawable/ctrasporte"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="TRANSPORTE"
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/cuidadoperonal"
+                        android:drawableStart="@drawable/icbotik"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="CUIDADO PERSONAL"
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                    <Button
+                        android:id="@+id/marketing"
+                        android:drawableStart="@drawable/cmark"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="DIFUSIÓN"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/bienesraiz"
+                        android:drawableStart="@drawable/ccbienes"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="ESCUELAS"
+                        android:textSize="14sp"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                    <Button
+                        android:id="@+id/mecanico"
+                        android:drawableStart="@drawable/cmeca"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="MECÁNICO"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/domestico"
+                        android:drawableStart="@drawable/ccarrjuridico"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="ABogados"
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                    <Button
+                        android:id="@+id/tortilleria"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:drawableStart="@drawable/cdome"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="DOMESTICOS"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1"
+                        app:cornerRadius="16dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/hotel"
+                        android:drawableStart="@drawable/chotel"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="HOTELERÍA"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                    <Button
+                        android:id="@+id/constru"
+                        android:drawableStart="@drawable/ccontru"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text=" Construccion"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/contaduria"
+                        android:drawableStart="@drawable/cconta"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="CONTADURÍA"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                    <Button
+                        android:id="@+id/reparacion"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:drawableStart="@drawable/celetricos"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="REPARACIÓN"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/herreria"
+                        android:drawableStart="@drawable/cherreria"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="HERRERIA"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                    <Button
+                        android:id="@+id/autolavado"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/cautolado"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="AUTOLAVADO"
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/imprenta"
+                        android:drawableStart="@drawable/c_impre"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="IMPRESOS"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                    <Button
+                        android:id="@+id/gimnacio"
+                        android:drawableStart="@drawable/cgym"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="GIMNASIOS"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/peronal"
+                        android:drawableStart="@drawable/cbutic"
+                        android:layout_width="156dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="OTROS"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/flat_red_1" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:backgroundTint="@android:color/holo_red_dark"
+        android:src="@android:drawable/ic_dialog_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

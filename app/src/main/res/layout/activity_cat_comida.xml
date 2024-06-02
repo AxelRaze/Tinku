@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cat_Medicos">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="COMIDA"
+                android:textSize="39sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/image_slider"
+            android:layout_width="204dp"
+            android:layout_height="150dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="2"
+            app:sliderStartAutoCycle="true"
+            tools:layout_editor_absoluteX="298dp"
+            tools:layout_editor_absoluteY="86dp">
+
+        </com.smarteist.autoimageslider.SliderView>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/birria"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Birria"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/per1"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="carne asada"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/carnicerias"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="carnicerias"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/comidachina"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="comida china"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/fondas"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Fondas"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/pasteleria"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Heladerias"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/pizzerias"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="pizzeria"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/pollo"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="pollo asado"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+        <Button
+            android:id="@+id/restaurant"
+            android:layout_width="156dp"
+            android:layout_height="50dp"
+            android:layout_margin="2dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="restaurant"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/flat_red_1"
+            app:cornerRadius="16dp" />
+            <Button
+                android:id="@+id/tacos"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="tacos"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/tortas"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="tortas"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/flat_red_1"
+                app:cornerRadius="16dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

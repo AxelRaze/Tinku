@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cat_Medicos"
+    android:background="@color/bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="AVISO DE PRIVACIDAD "
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="222dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/logocir" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+
+
+                    </TableRow>
+
+
+                </TableLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:text="Estamos comprometidos a proteger su privacidad."
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:text="En TINKU es muy importante la preservación de la confianza de nuestros clientes, es por ello que no utilizamos los datos recabados para otros propósitos ajenos a los establecidos en el contrato, a menos que obtengamos su autorización, sin embargo, TINKU NO se hace responsable por el mal uso que los usuarios puedan dar a tal información." />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="355dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Todos los datos de contacto recopilados en esta plataforma son proporcionados voluntariamente por la empresa o negocio en cuestión, dando el consentimiento legal para la obtención, uso, divulgación y almacenamiento de tales datos, incluyendo nombre de la empresa o negocio, dirección, información de contacto laboral ( teléfono, correo electrónico, entre otros) y fotos del lugar; a fin de que podamos brindar la publicidad previamente establecida en el contrato." />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
